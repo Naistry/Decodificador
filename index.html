@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/normalized.css">
+    
+   
+    <title>DecoWord</title>
+</head>
+<body>
+    
+<main class="container">
+    <header class="container-header">
+        <img src="image/logo.svg" alt="logo-img">
+    </header>
+
+   
+        <section class="container-left">
+            
+            <textarea name="textoInput"  class="texto" placeholder="Ingrese texto aquí"></textarea>
+           
+            <p class="parrafo"> <span class="simbol">&excl;</span> Solo letras minúsculas y sin acento</p>
+     
+            <div class="button-flex">
+            <button class="button-area" required>Encriptar!</button>
+            <button class="button-area" id="desencriptar">Desencriptar!</button>
+            </div>
+        </section>
+
+        <section class="container-right">
+            <img src="image/doll.png" alt="doll-img" class="img-right">
+            <h1 class="text-title">Ningún mensaje fue encontrado</h1>
+          
+           <textarea name="name" id="textencriptado" cols="30" rows="10" class="texto2" placeholder="Ingrese el texto que desees encriptar!" ></textarea>
+            <button class="copiar">Copiar!</button>
+        </section>
+    </main> 
+   
+  <script src="js/script.js"></script>
+
+</body>
+</html>

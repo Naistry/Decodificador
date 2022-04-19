@@ -116,9 +116,9 @@ body{
     
     background:var(--gray-400);
     color: white;
-    border-radius: 100%;
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
+    border-radius: 50%;
+    padding: 0.25rem 0.75rem;
+    
 }
 
 .texto2{
